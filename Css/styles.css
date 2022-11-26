@@ -365,4 +365,19 @@ header {
     left: 50%;
     top: -1.5rem;
     transform: rotate(45deg);
+    margin-left: -25px;
+}
+
+/*======= Footer ========*/
+
+footer {
+    background: var(--color-bg1);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
 }
