@@ -464,7 +464,7 @@ nav button#close-menu-btn {
 .nav__menu li {
   width: 100%;
   height: 5.8rem;
-  animation: animateNavItems 150ms linear forwards;
+  animation: animateNavItems 150ms ease-in forwards ;
   transform-origin: top right;
 }
 
